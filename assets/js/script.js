@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Divya Jyo";
+            document.title = "Portfolio | Divya Jyoti";
             $("#favicon").attr("href", "assets/images/favicons.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Come Back To My Portfolio";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
