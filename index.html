@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya Jyoti Chaudhary | Front-End Web Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Divya Jyoti Chaudhary, a Front-End Web Developer specializing in premium, responsive web design and React.js.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><span>DJ</span>Chaudhary</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars text-primary"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto alignment-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="theme-toggle" class="btn btn-sm btn-icon-toggle" aria-label="Toggle Theme">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-center position-relative overflow-hidden">
+        <div class="glow-bg"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100 py-5">
+                <div class="col-lg-7 order-2 order-lg-1" data-aos="fade-right">
+                    <h5 class="text-accent fw-600 mb-2">Welcome to my space</h5>
+                    <h1 class="display-4 fw-700 mb-3">Hi, I'm <span class="text-gradient">Divya Jyoti</span></h1>
+                    <h2 class="h3 fw-500 mb-4 text-secondary-custom">I am a <span class="dynamic-txt-box"><span class="typed-text"></span><span class="cursor">&nbsp;</span></span></h2>
+                    <p class="lead text-muted mb-5 max-w-500">Crafting high-performance, beautiful, and fully responsive user interfaces with seamless experiences.</p>
+                    <div class="hero-ctas d-flex flex-wrap gap-3">
+                        <a href="#contact" class="btn btn-primary custom-btn px-4 py-2.5">Hire Me <i class="fas fa-paper-plane ms-2"></i></a>
+                        <a href="#portfolio" class="btn btn-outline-secondary custom-btn px-4 py-2.5">View Projects</a>
+                        <a href="#" class="btn btn-light-glass custom-btn px-4 py-2.5" download><i class="fas fa-download me-2"></i> CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 text-center mb-5 mb-lg-0" data-aos="fade-left">
+                    <div class="hero-img-wrapper position-relative inline-block mx-auto">
+                        <div class="img-shape-bg"></div>
+                        <div class="profile-placeholder">
+                            <i class="fas fa-code-branch fa-4x text-primary-custom mb-3 animate-bounce"></i>
+                            <span class="fw-bold text-uppercase">Divya Jyoti</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-card">
+                        <h2 class="counter text-gradient display-5 fw-700" data-target="25">0</h2>
+                        <p class="text-muted mb-0">Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-card">
+                        <h2 class="counter text-gradient display-5 fw-700" data-target="15">0</h2>
+                        <p class="text-muted mb-0">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-card">
+                        <h2 class="counter text-gradient display-5 fw-700" data-target="1">0</h2>
+                        <p class="text-muted mb-0">Years Experience</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-card">
+                        <h2 class="counter text-gradient display-5 fw-700" data-target="10">0</h2>
+                        <p class="text-muted mb-0">Tech Mastered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding section-bg">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold tracking-widest">About Me</h6>
+                <h2 class="section-title">Discover My Journey</h2>
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="fw-600 mb-3 text-secondary-custom">Professional Introduction</h3>
+                    <p class="text-muted">I am a passionate Front-End Web Developer based in Kathmandu, Nepal. Dedicated to creating fluid digital products, I bridge the gap between structured code logic and artistic design principles.</p>
+                    <h4 class="h5 fw-600 mt-4 text-accent"><i class="fas fa-bullseye me-2"></i> Career Objective</h4>
+                    <p class="text-muted">To deploy interactive interfaces globally, maximizing application scalability through micro-frontend architecture while continuously refining intuitive user experience frameworks.</p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="glass-card p-4 profile-details-card">
+                        <h4 class="h5 fw-600 mb-4 border-bottom pb-2"><i class="far fa-user me-2 text-primary"></i> Personal Details</h4>
+                        <div class="row g-3">
+                            <div class="col-sm-6"><strong>Name:</strong> <span class="text-muted">Divya Jyoti Chaudhary</span></div>
+                            <div class="col-sm-6"><strong>Location:</strong> <span class="text-muted">Kathmandu, Nepal</span></div>
+                            <div class="col-sm-6"><strong>Email:</strong> <span class="text-muted text-break">businessinquiry2000@gmail.com</span></div>
+                            <div class="col-sm-6"><strong>Availability:</strong> <span class="badge bg-success-soft text-success">Freelance / Full-Time</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">My Expertise</h6>
+                <h2 class="section-title">Technical Capabilities</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="h5 fw-600 mb-4 text-primary-custom"><i class="fas fa-laptop-code me-2"></i> Web Development</h4>
+                        
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">HTML5 / CSS3</span>
+                                <span class="skill-pct fw-bold">95%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="95%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">JavaScript (ES6+)</span>
+                                <span class="skill-pct fw-bold">88%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="88%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">React.js</span>
+                                <span class="skill-pct fw-bold">82%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="82%"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">Firebase Architecture</span>
+                                <span class="skill-pct fw-bold">75%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="glass-card p-4 h-100">
+                        <h4 class="h5 fw-600 mb-4 text-primary-custom"><i class="fas fa-bezier-curve me-2"></i> UI Frameworks & Creative</h4>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">Bootstrap 5 / Responsive Design</span>
+                                <span class="skill-pct fw-bold">92%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="92%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">UI/UX Design Workflow</span>
+                                <span class="skill-pct fw-bold">85%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="85%"></div></div>
+                        </div>
+
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">Video Editing (Premiere Pro/CapCut)</span>
+                                <span class="skill-pct fw-bold">80%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="80%"></div></div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-500">Git & Collaboration Architecture</span>
+                                <span class="skill-pct fw-bold">85%</span>
+                            </div>
+                            <div class="progress custom-progress"><div class="progress-bar" data-width="85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding section-bg">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">What I Offer</h6>
+                <h2 class="section-title">Professional Ecosystem Solutions</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-laptop"></i></div>
+                        <h5>Responsive Website Design</h5>
+                        <p class="small text-muted mb-0">Fluid adaptive templates crafted for pixel perfect resolution layouts across form factors.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-rocket"></i></div>
+                        <h5>Landing Page Architecture</h5>
+                        <p class="small text-muted mb-0">High-converting layouts built directly onto light weight optimized modular foundations.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-briefcase"></i></div>
+                        <h5>Business Web Platforms</h5>
+                        <p class="small text-muted mb-0">Elegant professional profiles displaying structured corporate narratives explicitly.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fab fa-react"></i></div>
+                        <h5>React.js Ecosystems</h5>
+                        <p class="small text-muted mb-0">Declarative, dynamic structural interfaces powered by component-driven modern logic pipelines.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-fire text-orange"></i></div>
+                        <h5>Firebase Integrations</h5>
+                        <p class="small text-muted mb-0">Real-time DB synchronization pathways, modular user authorization and storage management.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-paint-brush"></i></div>
+                        <h5>Website Redesigns</h5>
+                        <p class="small text-muted mb-0">Transforming legacy applications into high performance fluid modern layout components.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-search-dollar"></i></div>
+                        <h5>SEO Engineering Optimization</h5>
+                        <p class="small text-muted mb-0">Semantic configurations, high-speed Core Web Vitals profiling for elevated organic crawl values.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card text-center p-4 glass-card h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-bug"></i></div>
+                        <h5>Debugging & Refactoring</h5>
+                        <p class="small text-muted mb-0">Resolving multi-runtime errors, structural style alignment collapses, and processing friction points.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">Selected Works</h6>
+                <h2 class="section-title">Creative Engineering Showcases</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in">
+                    <div class="portfolio-card glass-card overflow-hidden h-100">
+                        <div class="portfolio-img-container">
+                            <div class="portfolio-placeholder-img"><i class="fas fa-home fa-2x text-muted"></i></div>
+                        </div>
+                        <div class="p-4 d-flex flex-column justify-content-between card-body-height">
+                            <div>
+                                <h5 class="fw-600 mb-2">Real Estate Web App</h5>
+                                <p class="small text-muted">Dynamic spatial cataloging platform detailing premium properties with structural custom filter parameters.</p>
+                                <div class="tech-badges mb-4">
+                                    <span class="badge bg-secondary">React.js</span>
+                                    <span class="badge bg-secondary">Bootstrap 5</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-sm btn-primary flex-grow-1">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary px-3"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-card glass-card overflow-hidden h-100">
+                        <div class="portfolio-img-container">
+                            <div class="portfolio-placeholder-img"><i class="fas fa-hospital-user fa-2x text-muted"></i></div>
+                        </div>
+                        <div class="p-4 d-flex flex-column justify-content-between card-body-height">
+                            <div>
+                                <h5 class="fw-600 mb-2">Hospital Management UI</h5>
+                                <p class="small text-muted">Intuitive administration dashboard allowing medical staff processing paths, analytics mapping.</p>
+                                <div class="tech-badges mb-4">
+                                    <span class="badge bg-secondary">JavaScript</span>
+                                    <span class="badge bg-secondary">Firebase</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-sm btn-primary flex-grow-1">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary px-3"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-card glass-card overflow-hidden h-100">
+                        <div class="portfolio-img-container">
+                            <div class="portfolio-placeholder-img"><i class="fas fa-bed fa-2x text-muted"></i></div>
+                        </div>
+                        <div class="p-4 d-flex flex-column justify-content-between card-body-height">
+                            <div>
+                                <h5 class="fw-600 mb-2">Room Rent Finder</h5>
+                                <p class="small text-muted">A localized application designed specifically to parse housing vectors, featuring location maps integration pipelines.</p>
+                                <div class="tech-badges mb-4">
+                                    <span class="badge bg-secondary">HTML5/CSS3</span>
+                                    <span class="badge bg-secondary">JS</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-sm btn-primary flex-grow-1">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary px-3"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-card glass-card overflow-hidden h-100">
+                        <div class="portfolio-img-container">
+                            <div class="portfolio-placeholder-img"><i class="fas fa-utensils fa-2x text-muted"></i></div>
+                        </div>
+                        <div class="p-4 d-flex flex-column justify-content-between card-body-height">
+                            <div>
+                                <h5 class="fw-600 mb-2">Restaurant Culinary Web</h5>
+                                <p class="small text-muted">Luxury virtual hospitality menu detailing operational modules and instant online reservation flows.</p>
+                                <div class="tech-badges mb-4">
+                                    <span class="badge bg-secondary">Bootstrap 5</span>
+                                    <span class="badge bg-secondary">AOS</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-sm btn-primary flex-grow-1">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary px-3"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-card glass-card overflow-hidden h-100">
+                        <div class="portfolio-img-container">
+                            <div class="portfolio-placeholder-img"><i class="fas fa-user-tie fa-2x text-muted"></i></div>
+                        </div>
+                        <div class="p-4 d-flex flex-column justify-content-between card-body-height">
+                            <div>
+                                <h5 class="fw-600 mb-2">Personal Identity Portfolio</h5>
+                                <p class="small text-muted">High-performance optimized aesthetic portfolio configuration with customized structural layout modes.</p>
+                                <div class="tech-badges mb-4">
+                                    <span class="badge bg-secondary">HTML5</span>
+                                    <span class="badge bg-secondary">CSS Variables</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-sm btn-primary flex-grow-1">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary px-3"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding section-bg">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">Chronology</h6>
+                <h2 class="section-title">Professional Experience Timeline</h2>
+            </div>
+            <div class="timeline position-relative mx-auto max-w-800">
+                <div class="timeline-item mb-5 position-relative" data-aos="fade-right">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card p-4 shadow-sm ms-4">
+                        <span class="text-accent fw-bold small d-block mb-1">2025 - Present</span>
+                        <h4 class="h5 fw-600 text-secondary-custom">Independent Freelance Client Architecture</h4>
+                        <p class="text-muted small mb-0">Delivering structural landing frameworks, responsive web adaptations, and modern design interfaces for dynamic modern operations globally.</p>
+                    </div>
+                </div>
+                <div class="timeline-item mb-5 position-relative" data-aos="fade-left">
+                    <div class="timeline-marker"></div>
+                    <div class="glass-card p-4 shadow-sm ms-4">
+                        <span class="text-accent fw-bold small d-block mb-1">2024 - 2025</span>
+                        <h4 class="h5 fw-600 text-secondary-custom">Front-End Development & UX System Design</h4>
+                        <p class="text-muted small mb-0">Engineered modular configurations using Bootstrap 5 framework matrices. Supervised UI consistency layers across client interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">Endorsements</h6>
+                <h2 class="section-title">Client References</h2>
+            </div>
+            
+            <div id="testimonialCarousel" class="carousel slide max-w-600 mx-auto" data-bs-ride="carousel" data-aos="fade-up">
+                <div class="carousel-inner text-center glass-card p-5">
+                    <div class="carousel-item active">
+                        <i class="fas fa-quote-left text-primary display-6 mb-4 d-block"></i>
+                        <p class="lead italic text-muted">"Divya transformed our static corporate portfolio into a fully dynamic responsive application ecosystem. Absolute marvel to collaborate with."</p>
+                        <h5 class="fw-600 mt-4 text-secondary-custom mb-0">Alex Sterling</h5>
+                        <span class="small text-accent">Tech Operations Director</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fas fa-quote-left text-primary display-6 mb-4 d-block"></i>
+                        <p class="lead italic text-muted">"The engineering structural precision on our modern application setup was exceptional. The real-time tracking interface functions perfectly."</p>
+                        <h5 class="fw-600 mt-4 text-secondary-custom mb-0">Priya Sharma</h5>
+                        <span class="small text-accent">Product Strategy Lead</span>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center gap-3 mt-4">
+                    <button class="btn btn-outline-primary btn-sm rounded-circle circle-nav-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="btn btn-outline-primary btn-sm rounded-circle circle-nav-btn" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding section-bg">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h6 class="text-primary text-uppercase fw-bold">Get In Touch</h6>
+                <h2 class="section-title">Initiate a Strategic Dialogue</h2>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <h3 class="fw-600 text-secondary-custom mb-4">Contact Information</h3>
+                    <div class="d-flex align-items-center mb-4 card-contact-item p-3 glass-card">
+                        <div class="contact-icon bg-primary text-white me-3 rounded-circle"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <span class="text-muted small d-block">Email Direct Address</span>
+                            <a href="mailto:businessinquiry2000@gmail.com" class="fw-500 text-decoration-none text-secondary-custom text-break">businessinquiry2000@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 card-contact-item p-3 glass-card">
+                        <div class="contact-icon bg-accent text-white me-3 rounded-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <span class="text-muted small d-block">Operational Hub Base</span>
+                            <span class="fw-500 text-secondary-custom">Kathmandu, Nepal</span>
+                        </div>
+                    </div>
+                    
+                    <h5 class="fw-600 mb-3 mt-5">Connect via Ecosystems</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <form id="portfolio-contact-form" class="glass-card p-4 needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="form-name" class="form-label small fw-500">Your Full Name</label>
+                                <input type="text" class="form-control input-custom" id="form-name" required placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="form-email" class="form-label small fw-500">Your Email Address</label>
+                                <input type="email" class="form-control input-custom" id="form-email" required placeholder="name@domain.com">
+                            </div>
+                            <div class="col-12">
+                                <label for="form-subject" class="form-label small fw-500">Subject Parameter</label>
+                                <input type="text" class="form-control input-custom" id="form-subject" required placeholder="Project Architectural Collaboration Exploration">
+                            </div>
+                            <div class="col-12">
+                                <label for="form-message" class="form-label small fw-500">Message Payload Specifications</label>
+                                <textarea class="form-control input-custom" id="form-message" rows="5" required placeholder="Detail project technical ecosystem requirements here..."></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn btn-primary custom-btn px-4 w-100 py-3">Transmit System Communication <i class="fas fa-paper-plane ms-2"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-bg py-5 border-top-custom">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand fs-3 mb-3 d-inline-block" href="#home"><span>DJ</span>Chaudhary</a>
+                    <p class="text-muted small">Designing premium system architectural interfaces configured for seamless structural operational responsiveness globally.</p>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 ms-lg-auto">
+                    <h6 class="fw-bold mb-3 text-uppercase tracking-wider text-sm text-secondary-custom">Quick Links</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#home">Home Base</a></li>
+                        <li><a href="#about">About Identity</a></li>
+                        <li><a href="#portfolio">Selected Works</a></li>
+                        <li><a href="#contact">Contact Bridge</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <h6 class="fw-bold mb-3 text-uppercase tracking-wider text-sm text-secondary-custom">Services Provided</h6>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#services">Responsive Engineering</a></li>
+                        <li><a href="#services">React Integration</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">UI/UX Modern Systems</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="fw-bold mb-3 text-uppercase tracking-wider text-sm text-secondary-custom">Contact Core</h6>
+                    <p class="text-muted small mb-1">Kathmandu, Nepal</p>
+                    <a href="mailto:businessinquiry2000@gmail.com" class="text-decoration-none small text-muted text-break">businessinquiry2000@gmail.com</a>
+                </div>
+            </div>
+            <hr class="border-light-custom my-4">
+            <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+                <p class="small text-muted mb-0">&copy; 2026 Divya Jyoti Chaudhary. All Architectural Frameworks Configured.</p>
+                <div class="d-flex gap-3 footer-socials">
+                    <a href="#" class="text-muted" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="text-muted" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-muted" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-muted" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== FIREBASE SDK INTEGRATION ==================== -->
+    <!-- Firebase core App App module -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <!-- Firebase Realtime Database module -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+
+    <script>
+        // तिम्रो Firebase Console (Project Settings) बाट आफ्नो वास्तविक क्रेडिन्सियल यहाँ राख
+        const firebaseConfig = {
+            apiKey: "AIzaSyBQgxzdBtVt9iSc1pcd2Lz4eWFx6jk6vT0",
+            authDomain: "namohtek.firebaseapp.com",
+            databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
+            projectId: "namohtek",
+            storageBucket: "namohtek.appspot.com",
+            messagingSenderId: "17155029035",
+            appId: "1:17155029035:web:f94c9363227f11f781926e"
+            measurementId: "G-E54T39NQK6"
+        };
+        
+        // फायरबेस इनिसियलाइज गर्ने Engine
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+    </script>
+
+    <!-- Custom Engine script (यो पहिले देखि नै भएको लाइन हो) -->
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
