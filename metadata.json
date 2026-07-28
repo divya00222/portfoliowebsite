@@ -1,0 +1,6 @@
+{
+  "name": "DJ Chaudhary Portfolio",
+  "description": "Ultra-modern responsive personal portfolio for DJ Chaudhary - Front-End & PHP Developer featuring interactive Three.js 3D background, GSAP scroll animations, glassmorphism UI, and project showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

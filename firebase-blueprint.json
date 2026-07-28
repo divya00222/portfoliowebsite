@@ -1,0 +1,104 @@
+{
+  "entities": {
+    "projects": {
+      "title": "Projects",
+      "description": "Portfolio projects collection",
+      "properties": {
+        "title": { "type": "string" },
+        "tagline": { "type": "string" },
+        "category": { "type": "string" },
+        "image": { "type": "string" },
+        "description": { "type": "string" },
+        "technologies": { "type": "array", "items": { "type": "string" } },
+        "liveUrl": { "type": "string" },
+        "githubUrl": { "type": "string" },
+        "featured": { "type": "boolean" },
+        "demoType": { "type": "string" },
+        "highlights": { "type": "array", "items": { "type": "string" } },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["title", "category", "description"]
+    },
+    "skills": {
+      "title": "Skills",
+      "description": "Technical skills collection",
+      "properties": {
+        "name": { "type": "string" },
+        "level": { "type": "number" },
+        "category": { "type": "string" },
+        "icon": { "type": "string" },
+        "color": { "type": "string" },
+        "experienceYears": { "type": "string" },
+        "description": { "type": "string" },
+        "order": { "type": "number" }
+      },
+      "required": ["name", "level", "category"]
+    },
+    "experience": {
+      "title": "Experience",
+      "description": "Work experience timeline collection",
+      "properties": {
+        "year": { "type": "string" },
+        "role": { "type": "string" },
+        "company": { "type": "string" },
+        "location": { "type": "string" },
+        "type": { "type": "string" },
+        "description": { "type": "string" },
+        "highlights": { "type": "array", "items": { "type": "string" } },
+        "technologies": { "type": "array", "items": { "type": "string" } },
+        "order": { "type": "number" }
+      },
+      "required": ["role", "company", "year"]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "description": "Client testimonials collection",
+      "properties": {
+        "name": { "type": "string" },
+        "role": { "type": "string" },
+        "company": { "type": "string" },
+        "avatar": { "type": "string" },
+        "content": { "type": "string" },
+        "rating": { "type": "number" },
+        "projectRef": { "type": "string" }
+      },
+      "required": ["name", "content"]
+    },
+    "socialLinks": {
+      "title": "Social Links",
+      "description": "Social media links",
+      "properties": {
+        "platform": { "type": "string" },
+        "url": { "type": "string" },
+        "icon": { "type": "string" }
+      },
+      "required": ["platform", "url"]
+    },
+    "messages": {
+      "title": "Contact Messages",
+      "description": "Inbound contact messages from portfolio visitors",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "phone": { "type": "string" },
+        "subject": { "type": "string" },
+        "service": { "type": "string" },
+        "message": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "read": { "type": "boolean" }
+      },
+      "required": ["name", "email", "message"]
+    },
+    "admins": {
+      "title": "Admins",
+      "description": "Admin user profiles",
+      "properties": {
+        "email": { "type": "string" },
+        "role": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["email"]
+    }
+  }
+}
