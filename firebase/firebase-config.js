@@ -5,13 +5,15 @@ import { getAuth } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-aut
 import { getStorage } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js';
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyA4cYzkHspN1nv1iumK3ooAZ3APaDlgRgQ",
-    authDomain: "portfolio-4d3bb.firebaseapp.com",
-    projectId: "portfolio-4d3bb",
-    storageBucket: "portfolio-4d3bb.firebasestorage.app",
-    messagingSenderId: "445507061953",
-    appId: "1:445507061953:web:15bd8b80111ace534aec40",
-    measurementId: "G-5YJFW9DP38"};
+  apiKey: "AIzaSyBQgxzdBtVt9iSc1pcd2Lz4eWFx6jk6vT0",
+  authDomain: "namohtek.firebaseapp.com",
+  databaseURL: "https://namohtek-default-rtdb.firebaseio.com",
+  projectId: "namohtek",
+  storageBucket: "namohtek.appspot.com",
+  messagingSenderId: "17155029035",
+  appId: "1:17155029035:web:f94c9363227f11f781926e",
+  measurementId: "G-E54T39NQK6"
+};
 
 export const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);
